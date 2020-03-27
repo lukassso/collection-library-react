@@ -1,0 +1,8 @@
+{
+  "short_name": "library-3",
+  "name": "library-3",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
