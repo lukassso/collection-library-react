@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
-
-import ExampleComponent from 'library-3'
+import './index.css'
+import { ExampleComponent, Component2, Component3, Component4 } from 'library-3'
 
 export default class App extends Component {
   render () {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
+      <div className="wrapper">
+        <ExampleComponent test='altTest' text='Modern React component module' />
+        <Component2 text2="component2 button"/>
+        <Component3/>
+        <Component4 text4="dupa 4" />
+      </div>  
     )
   }
 }
